@@ -9,7 +9,7 @@ import { Badge } from "@/components/ui/badge";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { useToast } from "@/hooks/use-toast";
 import { Heart, Brain, Users, TrendingUp, Star, Shield, Clock, Award, CheckCircle, Play, ArrowRight, Sparkles } from "lucide-react";
-import heroImage from "@/assets/ai-robot-avatar.jpg";
+import heroImage from "@/assets/friendly-robot-tutor.jpg";
 
 const Index = () => {
   const { toast } = useToast();
