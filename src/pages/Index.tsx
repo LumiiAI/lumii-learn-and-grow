@@ -9,7 +9,7 @@ import { Badge } from "@/components/ui/badge";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { useToast } from "@/hooks/use-toast";
 import { Heart, Brain, Users, TrendingUp, Star, Shield, Clock, Award, CheckCircle, Play, ArrowRight, Sparkles } from "lucide-react";
-import heroImage from "@/assets/hero-dashboard.jpg";
+import heroImage from "@/assets/ai-robot-avatar.jpg";
 
 const Index = () => {
   const { toast } = useToast();
@@ -81,7 +81,7 @@ const Index = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-3xl blur-3xl"></div>
               <img 
                 src={heroImage} 
-                alt="MyFriendLumii AI Dashboard - Parent and Student Views" 
+                alt="AI Robot Avatar - Your Child's Learning Companion" 
                 className="relative z-10 w-full rounded-2xl shadow-2xl hover:shadow-3xl transition-shadow duration-300"
               />
             </div>
